@@ -9,6 +9,10 @@
         font-size: 4rem;
         display: inline-block;
         font-weight: 700;
+        
+        @media (max-width: 768px){
+            font-size: 3rem;
+        }
     }
 
     &--description{
@@ -16,6 +20,7 @@
         display: block;
         margin-top: 1.2rem;
         text-transform: none;
+
     }
 
     &--aboutandskillsheading{
@@ -82,9 +87,15 @@
 
     &--footerdescription{
         font-size: 1rem;
-        display: block;
+        display: inline-block;
         text-transform: none;
     }
+}
+
+.display-6{
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .5rem;
 }
 
 .heading-line{

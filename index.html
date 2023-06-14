@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assests\css\fontawesome.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden;">
     <!--NAVBAR START-->
     <nav class="navbar navbar-expand-lg navbar-light menu shadow fixed-top">
         <div class="container">
@@ -33,10 +33,21 @@
         </div>
     </nav>
     <!--NAVBAR END-->
+    <!--WARNING START-->
+    <section class="warning" id="warning">
+      <div class="container">
+        <div class="row align-items-start text-center">
+          <div class="col-12">
+            <h1 class="display-6">This website is best viewed on a laptop/desktop. I'm currently working on making my website fully responsive on smaller devices, so you might encounter some issues viewing the wesbite content on your current device. Sorry for the inconvenience.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--WARNING END-->
     <!--INTRO START-->
     <section id="home" class="intro-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-start">
                 <div class='col-md-6'>
                     <h1 class="display-2">
                         <span class="display-2--intro">Namaste! I'm Sreekethav Vaka</span>
@@ -145,13 +156,13 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-4 gradient shadow p-4">
+        <div class="col-md-4 col-sm-12 gradient shadow p-4">
           <h1 class="display-4">
             <span class="display-4--contactheading2">Get in touch with me</span>
             <span class="display-4--contactdescription">Need a website? I may be able to help. I'm looking for opportunities to diversify my portfolio and any help is much appreciated! Although I'm still a learner, I'm certain that I can deliver top-notch work.</span>
           </h1>
         </div>
-        <div class="col-4 bg-white shadow p-4">
+        <div class="col-md-4 col-sm-12 bg-white shadow p-4">
           <h1 class="display-4">
             <span class="display-4--contactheading2">I'm available here</span>
             <span class="display-4--contactdescription"><i class="fa-solid fa-envelope" style="color: #000000;"></i> vaka.sreekethav@gmail.com</span>
@@ -174,5 +185,6 @@
       </div>
     </section>
     <!--FOOTER END-->
+    <script src="assests\js\bootstrap.bundle.js"></script>
 </body>
 </html>

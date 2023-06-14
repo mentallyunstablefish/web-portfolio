@@ -1,0 +1,14 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.warning{
+    padding: 6rem 0 0 0;
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    background: orange;
+
+    @media (min-width: 768px){
+        display: none;
+    }
+}

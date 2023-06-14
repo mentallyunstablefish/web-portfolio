@@ -11871,6 +11871,13 @@ textarea.form-control-lg {
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(48, 213, 200, 0.95), rgba(62, 180, 137, 0.95));
 }
+@media (max-width: 768px) {
+  .btn-rounded {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
 
 .display-2 {
   margin-bottom: 1rem;
@@ -11881,6 +11888,11 @@ textarea.form-control-lg {
   font-size: 4rem;
   display: inline-block;
   font-weight: 700;
+}
+@media (max-width: 768px) {
+  .display-2--intro {
+    font-size: 3rem;
+  }
 }
 .display-2--description {
   font-size: 2rem;
@@ -11944,8 +11956,14 @@ textarea.form-control-lg {
 }
 .display-5--footerdescription {
   font-size: 1rem;
-  display: block;
+  display: inline-block;
   text-transform: none;
+}
+
+.display-6 {
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.5rem;
 }
 
 .heading-line {
@@ -11978,12 +11996,22 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 0 0 0 0;
+  }
+}
 
 .myimg {
   position: relative;
   float: right;
   border: 5px solid #30D5C8;
   border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .myimg {
+    margin-top: 2.5rem;
+  }
 }
 
 .aboutandskills {
@@ -12063,6 +12091,19 @@ textarea.form-control-lg {
   height: 100%;
   margin-top: 1rem;
   background-color: #3EB489;
+}
+
+.warning {
+  padding: 6rem 0 0 0;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  background: orange;
+}
+@media (min-width: 768px) {
+  .warning {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
