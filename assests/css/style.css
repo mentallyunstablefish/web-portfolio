@@ -12099,7 +12099,7 @@ textarea.form-control-lg {
   height: 100%;
   background: orange;
 }
-@media (min-width: 769px) {
+@media (min-width: 76px) {
   .warning {
     display: none;
   }
