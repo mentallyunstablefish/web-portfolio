@@ -4,11 +4,10 @@
 .warning{
     padding: 6rem 0 0 0;
     width: 100%;
-    margin: 0px;
-    overflow-x: hidden;
+    height: 100%;
     background: orange;
 
-    @media (min-width: 768px){
+    @media (min-width: 76px){
         display: none;
     }
 }
